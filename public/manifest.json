@@ -1,0 +1,17 @@
+{
+  "name": "SmartSync - Live AI Seminar Notes",
+  "short_name": "SmartSync",
+  "description": "Real-time AI-powered lecture transcription and structured note-taking platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090d16",
+  "theme_color": "#10b981",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
