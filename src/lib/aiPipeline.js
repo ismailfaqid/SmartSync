@@ -1,6 +1,7 @@
 import { getOpenAIKey } from './storage'
 import { getSupabaseClient } from './supabase'
 
+<<<<<<< HEAD
 const SYSTEM_PROMPT = `You are an expert academic and professional note‑taker. Analyze the given speech transcript segment and produce a cohesive, interconnected takeaway.
 1. Remove filler words, stutters, chitchat, and audio noise.
 2. Identify the main topic, sub‑topics, and how they relate to earlier segments.
@@ -12,6 +13,15 @@ const SYSTEM_PROMPT = `You are an expert academic and professional note‑taker.
   "heading": "Clear, short section title",
   "bullet_points": ["First core takeaway", "Second key point", "Third actionable item"],
   "related_concepts": ["Earlier heading 1", "Earlier heading 2"]
+=======
+const SYSTEM_PROMPT = `You are an expert academic and professional note-taker. Process the following speech transcript segment from a live seminar. 
+1. Filter out filler words, stutters, chitchat, or audio noise.
+2. Extract key facts, data points, or main arguments.
+3. Output valid JSON in the exact structure:
+{
+  "heading": "Clear, Short Section Title",
+  "bullet_points": ["First core takeaway", "Second key point or statistic", "Third actionable item"]
+>>>>>>> 12b0b5df3c03596370d77a8f023265c710e6840a
 }`
 
 /**
